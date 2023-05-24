@@ -16,7 +16,7 @@ input,
 textarea,
 select,
 button {
-   width: 150px;
+   width: 250px;
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -36,8 +36,4 @@ main {
 
 .sect1 div {
    background-color: red;
-}
-
-.sect2 div {
-   background-color: green;
 }
