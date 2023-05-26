@@ -70,3 +70,29 @@ main {
 .myButton:active {
    background: #144e75;
 }
+
+/* main {
+   width: min(65ch, 100% - 4rem);
+   margin-inline: auto;
+}
+ */
+.sect2 {
+   background-color: aliceblue;
+}
+
+.text {
+   width: 60%;
+   font-size: 0.9rem;
+   margin-top: 6rem;
+   padding-bottom: 4rem;
+}
+
+.formControl {
+   background-color: #fff;
+}
+
+.formControl p {
+   padding-top: 0.8rem;
+   font-size: 1.4rem;
+   font-weight: 600;
+}
