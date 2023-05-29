@@ -36,8 +36,6 @@ main {
 }
 
 .sect1 {
-   /*   display: flex;
-   flex-direction: column; */
    width: 40%;
    height: 100vh;
    background-image: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
@@ -56,7 +54,7 @@ main {
 }
 
 .logo {
-   width: 10%;
+   width: 15%;
    display: block;
    height: auto;
 }
