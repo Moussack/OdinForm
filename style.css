@@ -36,18 +36,31 @@ main {
 }
 
 .sect1 {
+   display: flex;
+   flex-direction: column;
    width: 40%;
    height: 100vh;
+   background-image: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sect1 div {
+   margin-top: 13rem;
+   /*  height: 8.5rem; */
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sect1 div img {
+   width: 15%;
+   display: block;
+   height: auto;
 }
 
 .sect2 {
    width: 60%;
    background-color: #f9fafb;
    height: 100vh;
-}
-
-.sect1 div {
-   background-color: red;
 }
 
 .form-row {
