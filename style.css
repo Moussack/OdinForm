@@ -1,3 +1,8 @@
+@font-face {
+   font-family: 'Norse-Bold';
+   src: url('/assets/Norse-Bold.otf') format('truetype');
+}
+
 body {
    margin: 0;
    padding: 0;
@@ -36,6 +41,7 @@ main {
 }
 
 .sect1 {
+   font-family: 'Norse-Bold', sans-serif;
    width: 40%;
    height: 100vh;
    background-image: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
@@ -113,6 +119,8 @@ main {
 .formControl {
    background-color: #fff;
    padding: 1.8rem 0 1.8rem 0;
+   -webkit-box-shadow: 2px 3px 5px 1px rgba(255, 65, 24, 0.66);
+   box-shadow: 2px 3px 5px 1px rgba(225, 226, 227, 1);
 }
 
 .formControl p {
