@@ -27,15 +27,16 @@ input[type='password'] {
    /*  border-radius: 5px; */
 }
 
-input[type='text']:focus {
+input:focus {
    /*  outline: 0.1rem solid #2c5adb; */
    border: 1px solid #2c5adb;
    outline: 1px solid #2c5adb;
+   box-shadow: 2px 3px 5px 1px rgb(202, 202, 202);
 }
 
 input[type='email']:invalid {
-   border: 1px solid red;
-   outline: 1px solid red;
+   border: 1px solid #b92326;
+   outline: 1px solid #b92326;
 }
 
 input[type='email']:valid {
