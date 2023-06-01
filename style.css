@@ -126,24 +126,11 @@ main {
    background: #596d48;
 }
 
-/* main {
-   width: min(65ch, 100% - 4rem);
-   margin-inline: auto;
-}
- */
-
 .text {
    width: 60%;
    font-size: 0.9rem;
    margin-top: 6rem;
    padding-bottom: 4rem;
-}
-
-.formControl {
-   /* background-color: #fff; */
-   /*  padding: 1.8rem 0 1.8rem 0; */
-   /*  -webkit-box-shadow: 2px 3px 5px 1px rgba(225, 226, 227, 1);
-   box-shadow: 2px 3px 5px 1px rgba(225, 226, 227, 1); */
 }
 
 .inputContainer {
