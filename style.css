@@ -19,6 +19,29 @@ p {
    padding: 0;
 }
 
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password'] {
+   padding-left: 0.5rem;
+   /*  border-radius: 5px; */
+}
+
+input[type='text']:focus {
+   /*  outline: 0.1rem solid #2c5adb; */
+   border: 1px solid #2c5adb;
+   outline: 1px solid #2c5adb;
+}
+
+input[type='email']:invalid {
+   border: 1px solid red;
+   outline: 1px solid red;
+}
+
+input[type='email']:valid {
+   outline: 1px solid #e5e7eb;
+}
+
 input,
 textarea,
 select,
@@ -87,20 +110,17 @@ main {
    height: 50px;
    color: rgb(255, 255, 255);
    font-size: 17px;
-
    border-radius: 11px;
    border: 2px solid;
    display: inline-block;
    background-color: #596d48;
-
    margin: 2rem 0 2rem 0;
 }
-
 .myButton:hover {
-   background: #1c6ea4;
+   background: #697b5a;
 }
 .myButton:active {
-   background: #144e75;
+   background: #596d48;
 }
 
 /* main {
