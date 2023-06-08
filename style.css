@@ -1,3 +1,11 @@
+:root {
+   --primary-color: #0b1811;
+   --secondary: #ffffff;
+   --primary-button: #5fb481;
+   --secondary-button: #f1f8f4;
+   --accent: #71bc8f;
+}
+
 @font-face {
    font-family: 'Norse-Bold';
    src: url('/assets/Norse-Bold.otf') format('truetype');
@@ -30,9 +38,9 @@ input[type='password'] {
 
 input:focus {
    /*  outline: 0.1rem solid #2c5adb; */
-   border: 1px solid #2c5adb;
-   border-color: #2c5adb;
-   outline: 1px solid #2c5adb;
+   border: 1px solid var(--accent);
+   border-color: var(--accent);
+   outline: 1px solid var(--accent);
    box-shadow: 2px 3px 5px 1px rgb(202, 202, 202);
 }
 
@@ -41,9 +49,9 @@ input[type='email']:invalid {
    outline: 1px solid #b92326;
 }
 
-input[type='email']:valid {
+/* input[type='email']:valid {
    outline: 1px solid #e5e7eb;
-}
+} */
 
 input,
 textarea,
@@ -98,7 +106,7 @@ main {
 
 .sect2 {
    width: 60%;
-   background-color: #f9fafb;
+   background-color: var(--secondary-button);
    height: 100vh;
 }
 
@@ -111,19 +119,19 @@ main {
 .myButton {
    width: 250px;
    height: 50px;
-   color: rgb(255, 255, 255);
+   color: var(--secondary-button);
    font-size: 17px;
    border-radius: 11px;
-   border: 2px solid;
+   border: 1px solid var(--primary-button);
    display: inline-block;
-   background-color: #596d48;
+   background-color: var(--primary-button);
    margin: 2rem 0 2rem 0;
 }
 .myButton:hover {
-   background: #697b5a;
+   background: var(--accent);
 }
 .myButton:active {
-   background: #596d48;
+   background: var(--primary-button);
 }
 
 .text {
@@ -131,10 +139,11 @@ main {
    font-size: 0.9rem;
    margin-top: 6rem;
    padding-bottom: 4rem;
+   color: var(--primary-color);
 }
 
 .inputContainer {
-   background-color: #fff;
+   background-color: var(--secondary);
    padding-top: 1.8rem;
    padding-bottom: 2.3rem;
    -webkit-box-shadow: 2px 3px 5px 1px rgba(225, 226, 227, 1);
@@ -155,4 +164,24 @@ main {
 
 .bottomInputContainer p {
    font-size: 1.1rem;
+   color: var(--primary-color);
+}
+
+a {
+   font-weight: 600;
+   color: var(--primary-button);
+   text-decoration: none;
+}
+
+a:hover {
+   color: var(--accent);
+   text-decoration: underline;
+}
+
+a:visited {
+   color: var(--secondary-button);
+}
+
+.accent {
+   color: var(--primary-button);
 }
