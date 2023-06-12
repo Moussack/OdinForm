@@ -4,6 +4,8 @@
    --primary-button: #5fb481;
    --secondary-button: #f1f8f4;
    --accent: #71bc8f;
+   --focused: #3661d7;
+   --error: #ff0033;
 }
 
 @font-face {
@@ -38,9 +40,9 @@ input[type='password'] {
 
 input:focus {
    /*  outline: 0.1rem solid #2c5adb; */
-   border: 1px solid var(--accent);
-   border-color: var(--accent);
-   outline: 1px solid var(--accent);
+   border: 1px solid var(--focused);
+   border-color: var(--focused);
+   outline: 1px solid var(--focused);
    box-shadow: 2px 3px 5px 1px rgb(202, 202, 202);
 }
 
@@ -184,4 +186,9 @@ a:visited {
 
 .accent {
    color: var(--primary-button);
+}
+
+#message {
+   font-size: 0.7rem;
+   font-weight: 600;
 }

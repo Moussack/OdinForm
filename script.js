@@ -7,23 +7,23 @@ signUpButton.addEventListener('click', (e) => {
    if (password.value === '' || confirmPassword.value === '') {
       msg.textContent = 'IS NOT CONFIRMED';
       msg.style.color = 'gray';
-      e.preventDefault();
+      //e.preventDefault();
       setTimeout(() => {
          msg.textContent = '';
       }, 2500);
    } else if (password.value === confirmPassword.value) {
       console.log(`MATCHED`);
       msg.textContent = 'IS MATCHED';
-      msg.style.color = 'blue';
+      msg.style.color = '#5fb481';
       setTimeout(() => {
          msg.textContent = '';
       }, 2500);
    } else {
       msg.textContent = 'IS NOT MATCHED';
-      msg.style.color = 'red';
-      e.preventDefault();
+      msg.style.color = '#ff0033';
       setTimeout(() => {
          msg.textContent = '';
       }, 2500);
+      e.preventDefault();
    }
 });
