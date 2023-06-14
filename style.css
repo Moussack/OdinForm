@@ -34,21 +34,30 @@ input[type='email'],
 input[type='tel'],
 input[type='password'] {
    padding-left: 0.5rem;
+   border: 1px solid #c9c9c9;
+   outline: 1px solid #c9c9c9;
+
    /*  border-radius: 5px; */
-   outline: none;
 }
 
 input:focus {
    /*  outline: 0.1rem solid #2c5adb; */
-   border: 1px solid var(--focused);
-   border-color: var(--focused);
-   outline: 1px solid var(--focused);
+   border: 1px solid var(--secondary-button);
+   border-color: var(--secondary-button);
+   outline: 1px solid var(--secondary-button);
    box-shadow: 2px 3px 5px 1px rgb(202, 202, 202);
 }
 
 input[type='email']:invalid {
-   border: 1px solid #b92326;
-   outline: 1px solid #b92326;
+   border: 1px solid var(--error);
+   outline: 1px solid var(--error);
+}
+
+input[type='email']:valid,
+input[type='text']:valid,
+input[type='tel']:valid {
+   border: 1px solid var(--accent);
+   outline: 1px solid var(--accent);
 }
 
 /* input[type='email']:valid {
