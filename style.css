@@ -10,7 +10,7 @@
 
 @font-face {
    font-family: 'Norse-Bold';
-   src: url('https://moussack.github.io/OdinForm/assets/Norse-Bold.otf') format('truetype');
+   src: url('https://github.com/Moussack/OdinForm/tree/main/assets/Norse-Bold.otf') format('truetype');
 }
 
 body {
@@ -89,7 +89,7 @@ main {
    font-family: 'Norse-Bold', sans-serif;
    width: 40%;
    height: 100vh;
-   background-image: url('https://moussack.github.io/OdinForm/assets/halie-west-25xggax4bSA-unsplash.jpg');
+   background-image: url('https://github.com/Moussack/OdinForm/tree/main/assets/halie-west-25xggax4bSA-unsplash.jpg');
    background-repeat: no-repeat;
    background-size: cover;
 }
